@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import DemandeLivraison, OffreLivraison
 
-# Register your models here.
+admin.site.register(DemandeLivraison)
+admin.site.register(OffreLivraison)
